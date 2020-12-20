@@ -1,0 +1,22 @@
+instances:
+  - name: es01
+    dns:
+      - es01 
+      - localhost
+    ip:
+      - 127.0.0.1
+
+  - name: es02
+    dns:
+      - es02
+      - localhost
+    ip:
+      - 127.0.0.1
+      
+  - name: kibana
+    dns:
+      - kibana
+      - staging.kibana.work.cl
+      - localhost
+    ip:
+      - 127.0.0.1
