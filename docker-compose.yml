@@ -22,9 +22,6 @@ services:
       - ${PWD}/notebooks:/home/jovyan/work
       - ${HOST_DATA_PATH}:/data
       - ${HOST_DATA_PATH}/ETLcache:/home/jovyan/work/ETLcache
-      - ${PWD}/notebooks:/home/jovyan/work
-      - ${HOST_DATA_PATH}:/data
-      - ${HOST_DATA_PATH}/ETLcache:/home/jovyan/work/ETLcache
       - ${PWD}/jupyter:/home/jovyan/.jupyter/
       - ${PWD}/backup_utils:/home/jovyan/work/backup
       - ${PWD}/ETL:/home/jovyan/work/ETL
