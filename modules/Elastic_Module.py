@@ -110,7 +110,7 @@ class elastic_connection:
                 _id=data[idx][id_field]
             else:
                 _id=idx
-            bulk_data.append({"index":{ "_index" : INDEX_NAME, "_type" : _type, "_id" : _id}})
+            bulk_data.append({"index":{ "_index" : INDEX_NAME, "_id" : _id}})
             doc=data[idx]
             doc.pop(id_field, None)
             bulk_data.append(doc)
