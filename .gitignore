@@ -3,6 +3,7 @@ nginx-conf/passwords
 nginx/conf/nginx.conf
 data/**
 .env
+.env.back
 nginx-config/nginx.conf
 scratch.md
 .env.bak
