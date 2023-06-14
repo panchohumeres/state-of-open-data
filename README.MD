@@ -1,7 +1,9 @@
-# EJK
-## Business Intelligence Stack with Elasticsearch, Kibana and Jupyter Notebooks
+# State of Open Data [2019]
+## Dashboard for visualizing real-time stats of the Chilean Government Open Data portal (datos.gob.cl), based on Kibana. Powered by:
+### EJK: Business Intelligence Stack with Elasticsearch, Kibana and Jupyter Notebooks
 ![enter image description here](https://fhumeres.s3-sa-east-1.amazonaws.com/EJK.png)
 Business Intelligence stack, based on **Elasticsearch-Kibana** for **data warehousing** and **visualization**, and **Jupyter Notebooks** for development of automated **ETL** (Extract, Transform, Load) routines.
+#### { Currently offline due to changes in source data and APIs (government), you can test replicate and test this stack }
 
 ### Components:
  - **Elasticsearch**: Two-node Elasticsearch 7.2 Cluster, with native [REST API](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html) available in its endpoint.
